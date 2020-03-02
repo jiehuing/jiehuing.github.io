@@ -3242,6 +3242,7 @@ input, select, textarea {
 			z-index: -1;
 		}
 
+
 			#wrapper > .bg.fixed {
 				position: fixed;
 				width: 100vw;
@@ -3276,7 +3277,8 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: cover;
+				background-image:url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bgPortrait.jpg");
 			}
 
 		}
@@ -3469,7 +3471,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
+				padding: 8rem 2rem 5rem 2rem ;
 				min-height: 80vh;
 			}
 
