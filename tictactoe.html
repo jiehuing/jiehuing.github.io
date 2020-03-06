@@ -201,6 +201,7 @@ vertical-align:middle;
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
+			var endGame = false;
 			var result = 0
 			var player = [];
 			var com = [];
@@ -682,9 +683,17 @@ vertical-align:middle;
 			player.push("1");
 			move1();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("1");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function two()
 			{
@@ -692,9 +701,17 @@ vertical-align:middle;
 			player.push("2");
 			move2();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("2");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function thr()
 			{
@@ -702,9 +719,17 @@ vertical-align:middle;
 			player.push("3");
 			move3();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("3");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function fou()
 			{
@@ -712,9 +737,17 @@ vertical-align:middle;
 			player.push("4");
 			move4();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("4");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function fiv()
 			{
@@ -722,9 +755,17 @@ vertical-align:middle;
 			player.push("5");
 			move5();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("5");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function six()
 			{
@@ -732,9 +773,17 @@ vertical-align:middle;
 			player.push("6");
 			move6();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("6");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function sev()
 			{
@@ -742,9 +791,17 @@ vertical-align:middle;
 			player.push("7");
 			move7();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("7");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function eig()
 			{
@@ -752,9 +809,17 @@ vertical-align:middle;
 			player.push("8");
 			move8();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("8");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function nin()
 			{
@@ -762,9 +827,17 @@ vertical-align:middle;
 			player.push("9");
 			move9();
 			checkwin();
+			if (endGame==true)
+			{
+			return;
+			}
 			takeoff("9");
 			commove();
 			checklose();
+			if (endGame==true)
+			{
+			return;
+			}
 			}
 			function commove()
 			{
@@ -850,41 +923,49 @@ vertical-align:middle;
 			if (player.includes("1") && player.includes("2") && player.includes("3"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Win");
 			}
 			if (player.includes("4") && player.includes("5") && player.includes("6"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Win");
 			}
 			if (player.includes("7") && player.includes("8") && player.includes("9"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Win");
 			}
 			if (player.includes("1") && player.includes("4") && player.includes("7"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Win");
 			}
 			if (player.includes("2") && player.includes("5") && player.includes("8"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Win");
 			}
 			if (player.includes("3") && player.includes("6") && player.includes("9"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Win");
 			}
 			if (player.includes("1") && player.includes("5") && player.includes("9"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Win");
 			}
 			if (player.includes("3") && player.includes("5") && player.includes("7"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Win");
 			}
 			}
@@ -893,41 +974,49 @@ vertical-align:middle;
 			if (com.includes("1") && com.includes("2") && com.includes("3"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Lose");
 			}
 			if (com.includes("4") && com.includes("5") && com.includes("6"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Lose");
 			}
 			if (com.includes("7") && com.includes("8") && com.includes("9"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Lose");
 			}
 			if (com.includes("1") && com.includes("4") && com.includes("7"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Lose");
 			}
 			if (com.includes("2") && com.includes("5") && com.includes("8"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Lose");
 			}
 			if (com.includes("3") && com.includes("6") && com.includes("9"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Lose");
 			}
 			if (com.includes("1") && com.includes("5") && com.includes("9"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Lose");
 			}
 			if (com.includes("3") && com.includes("5") && com.includes("7"))
 			{
 			result += 1;
+			endgame = true;
 			return alert("You Lose");
 			}
 			}
