@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Ng Jie Hui</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+	<a href="#aboutme" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Me</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Projects</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="Subpages/Resume.html" class="w3-bar-item w3-button">Resume</a>
+        <a href="Subpages/Portfolio.html" class="w3-bar-item w3-button">Portfolio</a>
+        <a href="Subpages/Credits.html" class="w3-bar-item w3-button">Credits</a>
+      </div>	
+    </div>
+	<a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">New Website</a>
+  </div>
+</div>
+
+	<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+		<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+		  <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Me</a>
+		  <a href="#projects" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Projects</a>
+		  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+		  <a href="Subpages/Resume.html" class="w3-bar-item w3-button w3-padding-large">Resume</a>
+		  <a href="Subpages/Portfolio.html" class="w3-bar-item w3-button w3-padding-large">Portfolio</a>
+		  <a href="Subpages/Credits.html" class="w3-bar-item w3-button w3-padding-large">Credits</a>
+		  <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">New Website</a>
+		</div>
+<!-- End Navbar -->
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Programming Section -->
+  <div class = "w3-black">
+	  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+		<h2 class="w3-wide"><i>Programmer's Creed</i></h2><br>
+		<p class="w3-justify">
+		This is my program.  There are many programs like it but this one is mine.  My program is my best friend.  It is my life.  I must master it as I must master my life.  Without me, my program is useless.  Without my program, I am useless.  I must code my program true.  I must code better than my competition who is trying to beat me.  I must release my program before he releases his. <br><br>
+
+		My program and I know that what counts in this market is not the number of versions we release, the reach of our marketing, nor the downloads we get.  We know that it is the satisfied customers that count.<br><br>
+
+		My program is human, even as I, because it is my life.  Thus, I will learn it as a brother.  I will learn its weakness, its strength, its architecture, its data format, its components and its plug-ins.  I will keep my program built and ready, even as I am ready.  We will become part of each other.<br><br>
+
+		Before Linus I swear this creed.  My program and I are the leaders of our market.  We are the masters of our competition.  We are the saviors of our customers.  So be it, until victory is ours and there are no more bugs, only happy users.</p>
+
+		<!-- <div class="w3-row w3-padding-32"> -->
+		  <!-- <div class="w3-third"> -->
+			<!-- <p>name</p> -->
+			<!-- <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="random name" style="width:60%"> -->
+		  <!-- </div> -->
+		  <!-- <div class="w3-third"> -->
+			<!-- <p>name</p> -->
+			<!-- <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="random name" style="width:60%"> -->
+		  <!-- </div> -->
+		  <!-- <div class="w3-third"> -->
+			<!-- <p>name</p> -->
+			<!-- <img src="/w3images/bandmember.jpg" class="w3-round" alt="random name" style="width:60%"> -->
+		  <!-- </div> -->
+		<!-- </div> -->
+	  </div>
+	</div>
+	
+	  <!-- The About Me Section -->
+	  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; min-height:570px; overflow: hidden" id="aboutme">
+		<h2 class="w3-wide"><i>About me</i></h2><br>
+		<p class="w3-justify">
+		Hi, my name is Ng Jie Hui.<br><br>
+		I am a software developer based in Singapore specializing in RPA development.<br><br>
+		Shortly after graduating from <a href="http://www.nus.edu.sg/">National University of Singapore</a>, I joined the RPA team
+		at <a href="https://www.ust-global.com/">UST Global</a> where I worked on a variety of in-house projects. <br><br>
+		Subsequently, I am contracted to <a href="https://www.singtel.com/">Singtel</a> as a RPA developer under UST Global where I worked on a series of RPA projects for the HR team.	
+	  </div>
+
+	
+  <!-- The Projects Section -->
+  <div class = "w3-black" id="projects">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Interactive Projects</h2>
+      <p class="w3-opacity w3-center"><i>Check them out!</i></p><br>
+
+<!--       <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul> -->
+
+      <div class="w3-row-padding w3-padding-64" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+		  <!-- <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container w3-white">
+            <p><b>Tic Tac Toe</b></p>
+            <p class="w3-opacity">2019</p>
+            <p>My first ever pet project!<br>&nbsp;</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="location.href='Projects/tictactoe.html'">Try It!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!-- <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container w3-white">
+            <p><b>Paris</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!-- <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container w3-white">
+            <p><b>San Francisco</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+	  <div class="w3-container w3-content w3-padding-64" style="max-width:800px; min-height:450px; overflow: hidden" id="contact">
+		<h2 class="w3-wide w3-center">CONTACT</h2>
+		<p class="w3-opacity w3-center w3"><i>Interested? Get in touch!</i></p>
+		<div class="w3-row w3-padding-32 w3-center">
+		  <div class="w3-large" style="display: inline-block; text-align:left; margin-left:20px">
+			<i class="fa fa-map-marker" style="width:30px"></i> Singapore<br>
+			<i class="fa fa-phone" style="width:30px"></i>+65 97439998<br>
+			<i class="fa fa-envelope" style="width:30px"> </i>ngjh94@gmail.com<br>
+		  </div>
+		  <!-- <div class="w3-col m6"> -->
+			<!-- <form action="/action_page.php" target="_blank"> -->
+			  <!-- <div class="w3-row-padding" style="margin:0 -16px 8px -16px"> -->
+				<!-- <div class="w3-half"> -->
+				  <!-- <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"> -->
+				<!-- </div> -->
+				<!-- <div class="w3-half"> -->
+				  <!-- <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"> -->
+				<!-- </div> -->
+			  <!-- </div> -->
+			  <!-- <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"> -->
+			  <!-- <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button> -->
+			<!-- </form> -->
+		  <!-- </div> -->
+		</div>
+	  </div>
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+  <footer class="w3-container w3-black w3-center w3-margin-top">
+  <p><span class="w3-hover-opacity">Find me on <i>LinkedIn</i></span></p>
+	Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
+  </footer>
+<!-- End Footer -->
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

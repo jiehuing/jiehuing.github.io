@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+	<head>
+		<title>Ng Jie Hui</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+
+				<!-- Header -->
+					<header id="header">
+						<a href="singtel.html" class="logo">Singtel Projects</a>
+					</header>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html#header">My Projects</a></li>
+							<li><a href="generic.html">About Me</a></li>
+							<li><a href="elements.html">Resume</a></li>
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+							<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<li><a href="https://www.linkedin.com/in/ng-jie-hui-ba010b173/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/jiehuing" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+						<section class="post">
+						<header class="major">
+									<span class="date"><p><div text-align="center"><script> document.write(new Date().toLocaleDateString("en-US", {
+												"year": "numeric",
+												"month": "long",
+												"day": "numeric"
+											})); </script></div></p></span>	
+						</header>
+						<h1 style="text-align:center">My Singtel Journey</h1>
+						<br>
+						<section class="post">
+							<h3>Project 1 - Files Download</h3>
+							<p>My first interaction with singtel came before my deployment. I was called on for a quick RPA fix for a client. As my boss wanted me to build up some experience he offered me to fix it. The requirements were basically to create a bot that go in to a website and download some stuff every 30 mins. Sounds simple enough? Oh, the horrors the follows.</p>
+							<p>I had three days to build the bot. I completed the workflow in one. I was pretty proud of myself. Looking back, it wasn't really anything to be proud of. It was that simple. What came next was migration to production. When I tried to migrate my work, I realized that my work was pretty much incompatible with theirs. They were using a different version of UiPath, Ver 18.4.4, mine was ver 19. I had to redo everything.</p>
+							<p>Next, I had assumed that there is a location within the computer that the client wanted me to download to so I just set it as configurable. Turns out that he wanted it up on a sharepoint. Spent another few hours trying to get through the front-end of sharepoint when I realized that there was a package for UiPath. <i>Sigh</i></p>
+							<p>By the third day, I was bumbling around and hacking around in a frantic mess. Somehow I was able to push the product live at the end of the day and managed to help out our dear client. <i>Finally</i></p>
+							<p><b>What I Learnt:</b></p>
+							<p>The most important thing about coding is the requirements. Always be 100% clear on what they are.</p>
+						<hr>
+							<h3>Project 2 - Market Survey</h3>
+							<p>My first project after being deployed into singtel. This is probably be one of my most challenging project to date. Basically I had to take in payroll information for singtel's employees and convert them into a readable format submitted to vendors. That's vendors with an <i>s</i>. 4 vendor. And each of them had their own format. Feels kinda unfair that this is only labelled as one project.</p>
+							<p>What was the most difficult part of the project was matching employee's job title. You see, the job's title are not the same. But there is no mapping provided. What determines a job grade is a whole lot of factors. I then create said factors and use them to create my own map. From there, I can filter out a whole lot of job titles provided by the vendors.</p>
+							<p>Still, a large portion remains. I had the user's singtel's job title. And a bunch of possible job titles from the vendors. And what usually happens here is a very human process. For example, Sales Director = Procurement Director. I need a thesaurus.</p>
+							<p>So, I created one, a custom one. Furthermore, there had to be points associated with it. Some words are meaningless in our field. <i>Noise and vibration engineer?</i> Hmmmmm. Anyhow, the thesaurus are to be maintained by the user so they can keep adding on to it as new job titles pops up.</p>
+							<p><b>What I Learnt:</b></p>
+							<p>Hash Tables/Dictionaries are your friends.</p>
+						<hr>
+							<h3>Project 3 - Letter of Appointment</h3>
+							<p>Yet another project where I had to do multiple in one. How is it considered one project when the entire workflow is different? I'm basically dealing with two types of employees that get hired into singtel. The first are regular employees. They had to have a custom letter created for them so the fastest order of growth is linear. On the other hand, intern do not need custom letters so using select statements the process can be done very fast.</p>
+							<p>This two process had clear and well defined requirements so the project delivery was very smooth. However, the front end part of the process is dependent on the websites used, which was kind of slow. So that lengthen the process runtime. <i>Still much better than doing it myself!</i> My client had said. Can't really argue with that.</p>
+							<p><b>What I Learnt:</b></p>
+							<p>Orders of growth are just a rough gauge. In real projects your linear workflows may take longer than a quadratic one.</p>
+						<hr>
+							<h3>Side Project - Build a bot workshop</h3>
+							<p>This project was done upon request from another department that wanted to raise awareness on the process of RPA. I was there as a facilitator. Meaning I helped the attendees out as they attempt to build their own bot. This workshop wasn't to teach them how to create their own bot. Rather, it is to let them understand what process can be automated and what cannot.</p>
+							<p>At the end of the day, they gained a deeper appreciation for us developers and it is also easier to communicate on the workings of RPA for both side. It was a successful workshop and a great day.</p>
+						
+						</section>
+
+
+
+
+
+						<!-- Footer -->
+							<!-- <footer> -->
+								<!-- <div class="pagination"> -->
+									<!-- <!--<a href="#" class="previous">Prev</a>-->
+									<!-- <a href="#" class="page active">1</a> -->
+									<!-- <a href="#" class="page">2</a> -->
+									<!-- <a href="#" class="page">3</a> -->
+									<!-- <span class="extra">&hellip;</span> -->
+									<!-- <a href="#" class="page">8</a> -->
+									<!-- <a href="#" class="page">9</a> -->
+									<!-- <a href="#" class="page">10</a> -->
+									<!-- <a href="#" class="next">Next</a> -->
+								<!-- </div> -->
+							<!-- </footer> -->
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <section> -->
+							<!-- <form method="post" action="#"> -->
+								<!-- <div class="fields"> -->
+									<!-- <div class="field"> -->
+										<!-- <label for="name">Name</label> -->
+										<!-- <input type="text" name="name" id="name" /> -->
+									<!-- </div> -->
+									<!-- <div class="field"> -->
+										<!-- <label for="email">Email</label> -->
+										<!-- <input type="text" name="email" id="email" /> -->
+									<!-- </div> -->
+									<!-- <div class="field"> -->
+										<!-- <label for="message">Message</label> -->
+										<!-- <textarea name="message" id="message" rows="3"></textarea> -->
+									<!-- </div> -->
+								<!-- </div> -->
+								<!-- <ul class="actions"> -->
+									<!-- <li><input type="submit" value="Send Message" /></li> -->
+								<!-- </ul> -->
+							<!-- </form> -->
+						<!-- </section> -->
+						<section class="split contact">
+							<section class="alt">
+								<h3>Location</h3>
+								<p>Singapore, Bukit Batok</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p>(+65) 9743 9998</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p>ngjh94@gmail.com</p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+									<!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+									<!-- <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
+									<li><a href="https://www.linkedin.com/in/ng-jie-hui-ba010b173/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/jiehuing" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<!-- <div id="copyright"> -->
+						<!-- <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul> -->
+					<!-- </div> -->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
