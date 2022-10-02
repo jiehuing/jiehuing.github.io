@@ -233,6 +233,7 @@ hr {
 	color:black;
 	font-size:12px;
 	font-family: arial;
+	width: 10vw;// 100% view width
 }
 
 .map{
@@ -242,6 +243,17 @@ hr {
 
 .fixedMargin{
 	margin-bottom: 15px !important;
+}
+
+#sidebar > div.inner:after {
+    content: '';
+    display: block;
+    height: 0em; */
+    width: 100%;
+}
+
+#sidebar > .inner {
+	padding:1em !important;
 }
 
 /* Row */
