@@ -228,6 +228,22 @@ hr {
 .align-right {
   text-align: right; }
 
+.readable{
+	font-weight:500;
+	color:black;
+	font-size:12px;
+	font-family: arial;
+}
+
+.map{
+	width:100%;
+	max-width:1200px;
+}
+
+.fixedMargin{
+	margin-bottom: 15px !important;
+}
+
 /* Row */
 .row {
   display: flex;
