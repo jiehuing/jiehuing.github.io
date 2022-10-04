@@ -241,6 +241,10 @@ hr {
 	max-width:1200px;
 }
 
+.highlight{
+	color:#f56a6a !important;
+}
+
 .fixedMargin{
 	margin-bottom: 15px !important;
 }
