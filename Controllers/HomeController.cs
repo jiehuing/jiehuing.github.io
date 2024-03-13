@@ -1,4 +1,4 @@
-﻿using JieHuiPortfolio.Models;
+﻿using jiehuing.github.io.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace JieHuiPortfolio.Controllers
+namespace jiehuing.github.io.Controllers
 {
     public class HomeController : Controller
     {

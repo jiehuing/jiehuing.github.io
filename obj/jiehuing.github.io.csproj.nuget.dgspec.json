@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ngjh9\\Source\\Repos\\jiehuing.github.io\\JieHuiPortfolio\\JieHuiPortfolio.csproj": {}
+    "C:\\Users\\ngjh9\\source\\repos\\jiehuing.github.io\\jiehuing.github.io\\jiehuing.github.io.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ngjh9\\Source\\Repos\\jiehuing.github.io\\JieHuiPortfolio\\JieHuiPortfolio.csproj": {
+    "C:\\Users\\ngjh9\\source\\repos\\jiehuing.github.io\\jiehuing.github.io\\jiehuing.github.io.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ngjh9\\Source\\Repos\\jiehuing.github.io\\JieHuiPortfolio\\JieHuiPortfolio.csproj",
-        "projectName": "JieHuiPortfolio",
-        "projectPath": "C:\\Users\\ngjh9\\Source\\Repos\\jiehuing.github.io\\JieHuiPortfolio\\JieHuiPortfolio.csproj",
+        "projectUniqueName": "C:\\Users\\ngjh9\\source\\repos\\jiehuing.github.io\\jiehuing.github.io\\jiehuing.github.io.csproj",
+        "projectName": "jiehuing.github.io",
+        "projectPath": "C:\\Users\\ngjh9\\source\\repos\\jiehuing.github.io\\jiehuing.github.io\\jiehuing.github.io.csproj",
         "packagesPath": "C:\\Users\\ngjh9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ngjh9\\Source\\Repos\\jiehuing.github.io\\JieHuiPortfolio\\obj\\",
+        "outputPath": "C:\\Users\\ngjh9\\source\\repos\\jiehuing.github.io\\jiehuing.github.io\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ngjh9\\AppData\\Roaming\\NuGet\\NuGet.Config",

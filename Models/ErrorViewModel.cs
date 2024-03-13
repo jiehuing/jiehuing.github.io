@@ -1,6 +1,6 @@
 using System;
 
-namespace JieHuiPortfolio.Models
+namespace jiehuing.github.io.Models
 {
     public class ErrorViewModel
     {
