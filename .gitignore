@@ -2,9 +2,12 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/JieHuiPortfolio/.vs/
 /JieHuiPortfolio/.vs/JieHuiPortfolio/config/applicationhost.config
 /JieHuiPortfolio/.vs/JieHuiPortfolio/config/debuggerConfiguration-fddeab3e-af24-4aad-9423-d88c76e83874.json
+/JieHuiPortfolio/bin/Debug/
 /JieHuiPortfolio/bin/Debug/netcoreapp3.1
+/JieHuiPortfolio/obj/Debug/
 /JieHuiPortfolio/obj/Debug/netcoreapp3.1/staticwebassets
 /JieHuiPortfolio/obj/Debug/netcoreapp3.1/JieHuiPortfolio.Views.pdb
 /JieHuiPortfolio/obj/Debug/netcoreapp3.1/JieHuiPortfolio.Views.dll
@@ -23,3 +26,4 @@
 /JieHuiPortfolio/obj/Debug/netcoreapp3.1/JieHuiPortfolio.csproj.CopyComplete
 /JieHuiPortfolio/obj/Debug/netcoreapp3.1/apphost.exe
 /JieHuiPortfolio/obj/Debug/netcoreapp3.1/Razor/Views
+/JieHuiPortfolio/.vs/JieHuiPortfolio/DesignTimeBuild/.dtbcache.v2
